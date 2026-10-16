@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+ghostfix.db
+ghostfix.db-shm
+ghostfix.db-wal
+pcdoctor.db
+pcdoctor.db-shm
+pcdoctor.db-wal
+pcdoctor.db-journal
+ghostfix.db-journal
