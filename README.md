@@ -1,36 +1,23 @@
-# PC Doctor - College Lab Health Monitor
+# 🖥️ PC Doctor | Computer Lab Health Monitor
 
-An AI-powered system for live monitoring of college computer lab health.
+> Live PC health monitoring for your lab. Know the Problem. Find the Solution.
 
-## About
-PC Doctor is a smart lab management solution that provides a complete overview of all PCs in a computer lab at a glance. It detects critical issues and finds instant solutions.
+### About Project
+PC Doctor is an AI-powered system for live monitoring of college computer labs. It provides your lab status at a glance.
 
-1. Live monitoring of PC health (CPU, RAM, Network)
-2. Automatically detects critical problems
-3. AI-powered diagnosis and suggests solutions
-4. Tracks issue history for better lab management
+1.  Monitors all PCs - Detects CPU, RAM, Network & Software issues in real-time.
+2.  AI Diagnosis - GhostFix-AI analyzes and suggests instant solutions.
+3.  Clean UI - Built with HTML & CSS for a professional dashboard.
+4.  Tracks everything - Overall Status (Critical/Healthy) & Issue History.
 
-## Features
-- Your Lab, at a Glance Dashboard
-- Real-time Status: Critical / Warning / Healthy
-- AI Diagnostics & Fix Suggestions
-- Issue History Log
-- College Lab - Computer Health Monitoring
+### 🛠️ Tech Stack Used
+- **Frontend:** HTML, CSS
+- **Backend:** Python
+- **Framework:** Streamlit
+- **IDE:** VS Code
+- **AI Module:** GhostFix-AI
 
-## Tech Stack
-- Python
-- Streamlit
-- AI Diagnostics Module
-
-## How to Run
+### ▶️ How to Run in VS Code
 ```bash
-# Create virtual environment
-python -m venv .venv
-.\.venv\Scripts\Activate
-
-# Install dependencies
-pip install -r requirements.txt
 pip install streamlit
-
-# Run the app
 python -m streamlit run app.py --server.port 8775
